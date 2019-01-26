@@ -1,0 +1,14 @@
+
+custom:
+  phone: #短信配置信息
+    host: http://sms.253.com/msg/send #应用地址
+    username: N2892121  #账号
+    password: OgGRVbDoe13d9e  #密码
+    state: 1  #是否需要状态报告，需要1，不需要0
+    extend:   #扩展码
+  rsa:
+    private-key: MIIBUwIBADANBgkqhkiG9w0BAQEFAASCAT0wggE5AgEAAkEAiZX3XIZiXQQM7Ve10pNSd0GEvYh4joFoGhl4Lr40mH+dzT5ChR+Xmp2b+IEaZb70/x+CmD7GIwcUKrLukzpbfQIDAQABAkBVw+MnjSnB2+WHChbwhh9w8amiUHD+PFK9ekT9tlmo+XHSEcamcBokmL3Ixb5dfev8OmXgvNxNWgjIdRFNxlFNAiEAyHx+1+jrhtqsjuflnI73YU2IyBfXAw362jllCfuSqpsCIQCvrsIhrK979OsQc6Z7XlnH53bx4GuXLb9n9BZkqMCHxwIgKKDaD6Ua/cQYzgj+hgCO70AIJQx3vR27JTgWWrSJn1sCIGpwPNneH+u/9XLgPqtb/JUq3VuqFkVfyCmZLsAJpawdAiBCff5t9M4bscMsDaJvBgvPzqypajC/MkdUxEqv8odPPg==
+    prefix: zhongkedianji
+    suffix: zkdj@123
+server:
+  port: 8089
